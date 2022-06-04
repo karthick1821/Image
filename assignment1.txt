@@ -1,0 +1,171 @@
+<html>
+
+<head>
+    <title>assignment 1</title>
+    <link rel="stylesheet" href="stylesr.css">
+    <style>
+        .pagination {
+          display: inline-block;
+        }
+        
+        .pagination a {
+          color: purple;
+          float: left;
+          padding: 7px 8px;
+          text-decoration: none;
+          transition: background-color .3s;
+          border: 1px solid black;
+          background-color: white;
+          font-weight: bold;
+          margin: 0 4px;
+          border-radius: 15%;
+          border-width: 20%;
+        }
+        
+        .pagination a.active {
+          background-color: purple;
+          color: white;
+          border: 1px solid #4CAF50;
+        }
+        
+        .pagination a:hover:not(.active) {background-color: #ddd;}
+        </style>
+</head>
+
+<body>
+    <div id="header">
+        <div id="container_header">
+            <img id="logo" src="logo.png" />
+            <div id="ch_div">
+                <a href="" style="color: white;font-weight: bold;text-decoration: none;">Login</a>
+                <!-- <a href="" id="name">Create the Account</a> -->
+                <input type="text" name="name" placeholder="Create the Account" id="name">
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <div id="container_content">
+
+            <div id="content_header">
+                <h1>Breakfast Places in Mumbai</h1>
+            </div>
+            <div id="content_left">
+                <h3 style="color:purple;margin-top: 4%;margin-left: 8%;">Filters</h4>
+                    <h4 style="color:purple;margin-top: 4%;margin-left: 8%;">Selected Locations
+                </h3>
+                <select id="ss" style="color:purple;margin-top: 1%;margin-left: 8%;width:80%;height: 22px;">
+                    <option value="audi" selected>Selected Location</option>
+                </select>
+                <br>
+                <h4 style="color:purple;margin-top: 20%;margin-left: 8%;">Cuisine</h4>
+                <div style="color:purple;margin-top: 2%;margin-left: 8%;">
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="North Indian">
+                    <label for="vehicle1">North Indian</label><br>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="South Indian">
+                    <label for="vehicle1">South Indian</label><br>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Chinese">
+                    <label for="vehicle1">Chinese</label><br>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Fast Food">
+                    <label for="vehicle1">Fast Food</label><br>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Street Food">
+                    <label for="vehicle1">Street Food</label><br>
+                </div>
+
+                <h4 style="color:purple;margin-top: 20%;margin-left: 8%;">Cost For two</h3>
+                    <div style="color:purple;margin-top: 4%;margin-left: 8%;">
+                        <input type="radio" id="html" name="fav_language" value="HTML">
+                        <label for="html">Less than 500</label><br>
+                        <input type="radio" id="html" name="fav_language" value="HTML">
+                        <label for="html">Less than 500</label><br>
+
+                    </div>
+                    <h4 style="color:purple;margin-top: 20%;margin-left: 8%;">Sort</h3>
+                        <div style="color:purple;margin-top: 4%;margin-left: 8%;">
+                            <input type="radio" id="html" name="fav_language" value="HTML">
+                            <label for="html">Price low to high</label><br>
+                            <input type="radio" id="html" name="fav_language" value="HTML">
+                            <label for="html">Price high to low</label><br>
+
+                        </div>
+
+            </div>
+
+            <div id="content_right">
+                <p>
+                    <img src="C:\Users\Karthick\Downloads\logo.jpg" class="w3-round-xxlarge" alt="Norway"
+                        style="width:24%;margin-top: 1%;margin-left: 3%;border-radius: 7%;float: left;">
+                <h2 style="color:purple;margin-left:33%;">The Big Chill Cakery</h2>
+                <h5 style="color:purple;margin-left:34%;margin-top: -2%;">Fort</h5>
+                <h5 style="color:purple;margin-left:34%;margin-top: -2%;">Shop1,Plot D,samruddhi Complex, Chinchali.
+                </h5>
+                </p>
+                <div style="color:purple;margin-top: 7%;">
+                    <hr />
+                </div>
+                <h4 style="color:purple;float:left;margin-top: 1%;margin-left: 4%;">CUISINES:</h4>
+                <h5 style="color:purple;margin-left:40%;margin-top:3%">Bakery</h5><br>
+                <h4 style="color:purple;float:left;margin-top: -6%;margin-left: 4%;">COST FOR TWO:</h4>
+                <h5 style="color:purple;margin-left:40%;margin-top:-6%">700</h5>
+            </div>
+
+            <div id="content_down">
+                <p>
+                    <img src="C:\Users\Karthick\Downloads\logo.jpg" class="w3-round-xxlarge" alt="Norway"
+                        style="width:24%;margin-top: 1%;margin-left: 3%;border-radius: 7%;float: left;">
+                <h2 style="color:purple;margin-left:33%;">The Big Chill Cakery</h2>
+                <h5 style="color:purple;margin-left:34%;margin-top: -2%;">Fort</h5>
+                <h5 style="color:purple;margin-left:34%;margin-top: -2%;">Shop1,Plot D,samruddhi Complex, Chinchali.
+                </h5>
+                </p>
+                <div style="color:purple;margin-top: 7%;">
+                    <hr />
+                </div>
+                <h4 style="color:purple;float:left;margin-top: 1%;margin-left: 4%;">CUISINES:</h4>
+                <h5 style="color:purple;margin-left:40%;margin-top:3%">Bakery</h5><br>
+                <h4 style="color:purple;float:left;margin-top: -6%;margin-left: 4%;">COST FOR TWO:</h4>
+                <h5 style="color:purple;margin-left:40%;margin-top:-6%">700</h5>
+            </div>
+            <div id="down">
+                <div class="pagination">
+                    <a href="#">&laquo;</a>
+                    <a class="active" href="#">1</a>
+                    <a  href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>                   
+                    <a href="#">&raquo;</a>
+                  </div>
+                
+
+            </div>
+            <!-- <div id="content_right">
+                        <div id="cr_one"></div>
+                        
+        
+                        <div id="cr_two"></div>
+                        <div id="cr_three"></div>
+    
+                    </div> -->
+                   
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
